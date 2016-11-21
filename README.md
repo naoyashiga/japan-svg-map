@@ -4,5 +4,5 @@ Draw svg Japan map using d3js and geojson.
 
 #How to get GeoJSON
 
-・reference
+
 [D3.jsで日本地図を描き、都道府県別に色を塗る - Qiita](http://qiita.com/ran/items/d88c5126362576be3291)
