@@ -13,10 +13,10 @@ class Viz {
     this.projection = this.createProjection()
     this.path = this.createPath()
 
-    d3.json('./assets/prefcture.json', (error, json) => {
+    d3.json('./assets/prefecture.json', (error, json) => {
       console.log(json);
 
-      this.svg.selectAll(".prefcture")
+      this.svg.selectAll(".prefecture")
       .data(json.features)
       .enter()
       .append("path")
